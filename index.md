@@ -1,7 +1,8 @@
-```python
+```markdown
 # 📷 Posting to Bluesky with Python
 # This GitHub Page explains how to use a simple Python script to post images to [Bluesky](https://bsky.app/) with hashtags.
-
+```
+```python
 from atproto import Client
 
 # Define a function to post an image to Bluesky
@@ -73,3 +74,4 @@ if __name__ == "__main__":
         password = "YOUR_PASSWORD",     # Replace with your app password (keep secure!)
         file_path= 'img.png'                  # Path to the image file to be posted
     )
+```
