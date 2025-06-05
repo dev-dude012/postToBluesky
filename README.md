@@ -1,6 +1,6 @@
 # 🖼️ Post Images to Bluesky with Python
 
-This project shows how to post a local image to [Bluesky](https://bsky.app/) with a caption and clickable hashtags using the `atproto` Python library.
+This project shows how to post a local image to [Bluesky](https://bsky.app/) with a caption and clickable hashtags using the [atproto](https://atproto.blue/en/latest/) Python library.
 
 ## 🚀 Features
 - Uploads an image from a local file
@@ -9,6 +9,7 @@ This project shows how to post a local image to [Bluesky](https://bsky.app/) wit
 - Posts to Bluesky
 
 ## 📦 Requirements
+Make sure you have [pip](https://pip.pypa.io/en/stable/installation/) installed.
 ```bash
 pip install atproto
 ```
