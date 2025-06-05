@@ -69,3 +69,5 @@ if __name__ == "__main__":
         password = "YOUR_PASSWORD",     # Replace with your app password (keep secure!)
         file_path= 'img.png'                  # Path to the image file to be posted
     )
+
+    print("Post Succesful!")
