@@ -28,3 +28,8 @@ pip install atproto
 python postToBluesky.py
 ```
 ![firefox_CzaKN687pW](https://github.com/user-attachments/assets/d163f53b-dcb6-44f8-97fa-7787940a79d7)
+
+## Support
+Feel free to message me with any questions!
+[Bluesky](https://bsky.app/profile/dev-dude.bsky.social)
+[Ko-fi](https://ko-fi.com/devdude)
