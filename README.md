@@ -31,5 +31,5 @@ python postToBluesky.py
 
 ## Support
 Feel free to message me with any questions!
-[Bluesky](https://bsky.app/profile/dev-dude.bsky.social)
-[Ko-fi](https://ko-fi.com/devdude)
+- [Bluesky](https://bsky.app/profile/dev-dude.bsky.social)
+- [Ko-fi](https://ko-fi.com/devdude)
