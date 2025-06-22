@@ -27,7 +27,7 @@ def post_image_to_bsky(username, password, file_path):
     caption = "This is a Bluesky post with an image! \n\n"
 
     # Define a list of hashtags to be appended to the post
-    hashtags = ['#These', '#Are', '#Hashtags']
+    hashtags = ['#These', '#Are', '#Adv4nc3d_HashtagsBroo0']
 
     # Prepare the rich_text dictionary which includes the full text and hashtag metadata
     rich_text = {"text": caption, "facets": []}  # facets list stores clickable tag positions
@@ -37,11 +37,9 @@ def post_image_to_bsky(username, password, file_path):
 
     # Iterate through each hashtag to append it to the caption and mark its position
     for tag in hashtags:
-        start = position  # Starting byte of the tag in the string
-        end = start + len(tag)  # Ending byte of the tag
-
-        # Add the tag and a space to the rich text content
+        start = len(rich_text["text"].encode("utf-8"))  # ✅ accurate byte start
         rich_text["text"] += tag + " "
+        end = len(rich_text["text"].encode("utf-8"))    # ✅ accurate byte end
 
         # Move the position pointer forward for the next hashtag
         position += len(tag) + 1
@@ -66,7 +64,7 @@ def post_image_to_bsky(username, password, file_path):
 if __name__ == "__main__":
     post_image_to_bsky(
         username = "YOUR_HANDLE.bsky.social",    # Replace with your Bluesky handle
-        password = "YOUR_PASSWORD",     # Replace with your app password (keep secure!)
+        password = "YOUR_APP_PASSWORD",     # Replace with your app password (keep secure!)
         file_path= 'img.png'                  # Path to the image file to be posted
     )
 
